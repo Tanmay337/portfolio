@@ -227,7 +227,7 @@ export default function App() {
           <p className="text-white/60 mb-8 max-w-md">
             Whether you want to collaborate on an AI project, talk robotics, or just say hi, my inbox is always open.
           </p>
-          <a href="mailto:hello@example.com" className="liquid-glass rounded-full px-8 py-4 flex items-center gap-3 hover:opacity-90 transition-opacity">
+          <a href="mailto:tanmaygupta337@gmail.com" className="liquid-glass rounded-full px-8 py-4 flex items-center gap-3 hover:opacity-90 transition-opacity">
             <Mail className="w-5 h-5" />
             <span className="font-medium">Get In Touch</span>
           </a>
