@@ -7,12 +7,10 @@ import {
   GraduationCap, 
   Bot, 
   Code, 
-  Music, 
-  Gamepad2, 
-  Activity, 
   Mail,
   Zap,
-  Wrench
+  Wrench,
+  Dumbbell
 } from 'lucide-react';
 
 const BackgroundVideo = () => {
@@ -166,7 +164,7 @@ export default function App() {
         <section id="skills" className="max-w-5xl mx-auto px-6 py-24 w-full">
           <h2 className="text-3xl font-medium font-['Instrument_Serif'] text-center mb-12">Skills, Interests & Hobbies</h2>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             <div className="liquid-glass rounded-2xl p-6 flex flex-col items-center text-center gap-3">
               <Code className="w-6 h-6 text-white/70" />
               <span className="text-sm font-medium">Programming & Coding</span>
@@ -184,20 +182,12 @@ export default function App() {
               <span className="text-sm font-medium">Hardware Tinkering</span>
             </div>
             <div className="liquid-glass rounded-2xl p-6 flex flex-col items-center text-center gap-3">
-              <Music className="w-6 h-6 text-white/70" />
-              <span className="text-sm font-medium">Playing Guitar</span>
-            </div>
-            <div className="liquid-glass rounded-2xl p-6 flex flex-col items-center text-center gap-3">
-              <Gamepad2 className="w-6 h-6 text-white/70" />
-              <span className="text-sm font-medium">Competitive Gaming (Valorant)</span>
-            </div>
-            <div className="liquid-glass rounded-2xl p-6 flex flex-col items-center text-center gap-3">
-              <Activity className="w-6 h-6 text-white/70" />
-              <span className="text-sm font-medium">Playing Badminton</span>
-            </div>
-            <div className="liquid-glass rounded-2xl p-6 flex flex-col items-center text-center gap-3">
               <Zap className="w-6 h-6 text-white/70" />
               <span className="text-sm font-medium">Learning New Tech</span>
+            </div>
+            <div className="liquid-glass rounded-2xl p-6 flex flex-col items-center text-center gap-3">
+              <Dumbbell className="w-6 h-6 text-white/70" />
+              <span className="text-sm font-medium">Fitness</span>
             </div>
           </div>
         </section>
@@ -227,7 +217,7 @@ export default function App() {
           <p className="text-white/60 mb-8 max-w-md">
             Whether you want to collaborate on an AI project, talk robotics, or just say hi, my inbox is always open.
           </p>
-          <a href="mailto:tanmaygupta337@gmail.com" className="liquid-glass rounded-full px-8 py-4 flex items-center gap-3 hover:opacity-90 transition-opacity">
+          <a href="mailto:hello@example.com" className="liquid-glass rounded-full px-8 py-4 flex items-center gap-3 hover:opacity-90 transition-opacity">
             <Mail className="w-5 h-5" />
             <span className="font-medium">Get In Touch</span>
           </a>
