@@ -10,7 +10,8 @@ import {
   Mail,
   Zap,
   Wrench,
-  Dumbbell
+  Dumbbell,
+  Github
 } from 'lucide-react';
 
 const BackgroundVideo = () => {
@@ -115,8 +116,9 @@ export default function App() {
               <a href="#about" className="liquid-glass rounded-full px-8 py-3 text-sm font-medium hover:opacity-90 transition-opacity">
                 Explore My Journey
               </a>
-              <a href="#projects" className="border border-white/20 rounded-full px-8 py-3 text-sm font-medium hover:bg-white/5 transition-colors">
-                View My Projects
+              <a href="https://github.com/Tanmay337" target="_blank" rel="noopener noreferrer" className="border border-white/20 rounded-full px-8 py-3 text-sm font-medium hover:bg-white/5 transition-colors flex items-center gap-2">
+                <Github className="w-4 h-4" />
+                GitHub
               </a>
               <a href="#contact" className="text-white/80 hover:text-white text-sm underline underline-offset-4 ml-2 transition-colors">
                 Contact Me
@@ -217,7 +219,7 @@ export default function App() {
           <p className="text-white/60 mb-8 max-w-md">
             Whether you want to collaborate on an AI project, talk robotics, or just say hi, my inbox is always open.
           </p>
-          <a href="tanmaygupta337@gmil.com" className="liquid-glass rounded-full px-8 py-4 flex items-center gap-3 hover:opacity-90 transition-opacity">
+          <a href="mailto:tanmaygupta337@gmail.com" className="liquid-glass rounded-full px-8 py-4 flex items-center gap-3 hover:opacity-90 transition-opacity">
             <Mail className="w-5 h-5" />
             <span className="font-medium">Get In Touch</span>
           </a>
